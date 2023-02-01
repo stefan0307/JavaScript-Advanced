@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder App</title>
+</head>
+<body>
+    <h1>The Reminder App</h1>
+    <h4>Version 0.1</h4>
+    <label for="title">Reminder Title:</label>
+    <input type="text" name="title" id="title" placeholder="Type Here..." maxlength="60">
+    <br/>
+    <label for="priority">Select Priority:</label>
+    <select name="priority" id="priority">
+        <option disabled selected value> -- select an option -- </option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    <br/>
+    <label for="color">Select Color:</label>
+    <select name="color" id="color">
+        <option disabled selected value> -- select an option -- </option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+    </select>
+    <br/>
+    <label for="textarea">Write Description:</label>
+    <br/>
+    <textarea name="textarea" id="textarea" placeholder="Type Here..." cols="30" rows="10"></textarea>
+    <br/>
+    <button id="btnAdd">Add</button>
+    <button id="btnShow">Show Reminders</button>
+
+    <div id="result">
+
+     
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
